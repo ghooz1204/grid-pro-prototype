@@ -273,8 +273,8 @@ function getCurrentProperty(isDial, index) {
             {
                 etype: 'sendKeyboards',
                 fcode: {
-                    keys: [],
-                    modifiers: ['shift'],
+                    keys: ['shift'],
+                    modifiers: [],
                 },
             },
             {
@@ -309,14 +309,7 @@ function getCurrentProperty(isDial, index) {
             {
                 etype: 'sendKeyboards',
                 fcode: {
-                    keys: [],
-                    modifiers: ['control'],
-                },
-            },
-            {
-                etype: 'sendKeyboards',
-                fcode: {
-                    keys: ['fn'],
+                    keys: ['control'],
                     modifiers: [],
                 },
             },
@@ -324,7 +317,14 @@ function getCurrentProperty(isDial, index) {
                 etype: 'sendKeyboards',
                 fcode: {
                     keys: [],
-                    modifiers: ['alt'],
+                    modifiers: [],
+                },
+            },
+            {
+                etype: 'sendKeyboards',
+                fcode: {
+                    keys: ['alt'],
+                    modifiers: [],
                 },
             },
             {
