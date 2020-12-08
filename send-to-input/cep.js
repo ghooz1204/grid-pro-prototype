@@ -8,7 +8,7 @@ const HOST = '127.0.0.1';
 const METHOD = 'POST';
 const FOLDER_PATH = (appName) =>
     'Windows_NT' === os.type()
-        ? path.join('/Local/Invaiz Studio/Port/' + appName + '/cep_port.dll')
+        ? path.join('C:/Users/USER/AppData/Local/InvaizApp/Port/' + appName + '/cep_port.dll')
         : path.join(
               '/Users/parkcheolhyun/.local/share/Invaiz Studio/Port/' +
                   appName +

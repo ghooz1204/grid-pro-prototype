@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setting": "npm rebuild --runtime=electron --target=8.1.1 --disturl=https://atom.io/download/atom-shell --abi=72",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
